@@ -176,6 +176,7 @@ public class MainFrame
                 filePathTextField.setText(csvFilePath);
                 startButton.setEnabled(true);
                 exportButton.setEnabled(false);
+                progressBar.setValue(0);
             }
             catch (IOException e)
             {
